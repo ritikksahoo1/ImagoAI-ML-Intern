@@ -48,12 +48,14 @@ This repository contains a complete solution for predicting vomitoxin_ppb levels
    source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 3. **Install Dependencies** 
-   '''pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
 
 4. **Run the Notebook** 
-Launch Jupyter Notebook:
-jupyter notebook ml-intern-imagoai.ipynb
-Alternatively, open the notebook in a Kaggle Notebook environment if preferred.
+   ```
+   Launch Jupyter Notebook:
+   jupyter notebook ml-intern-imagoai.ipynb
+  - Alternatively, open the notebook in a Kaggle Notebook environment if preferred.
 
 ## Dependencies
   - Python 3.8+
