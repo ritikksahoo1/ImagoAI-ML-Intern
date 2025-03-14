@@ -55,7 +55,7 @@ This repository contains a complete solution for predicting vomitoxin_ppb levels
    ```
    Launch Jupyter Notebook:
    jupyter notebook ml-intern-imagoai.ipynb
-   - Alternatively, open the notebook in a Kaggle Notebook environment if preferred.
+   Alternatively, open the notebook in a Kaggle Notebook environment if preferred.
 
 ## Dependencies
   - Python 3.8+
