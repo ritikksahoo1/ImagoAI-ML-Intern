@@ -42,13 +42,13 @@ This repository contains a complete solution for predicting vomitoxin_ppb levels
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
    
-2. **Create a Virtual Environment** 
-```python
--m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+2. **Create a Virtual Environment:** 
+   ```python
+   -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 3. **Install Dependencies** 
-pip install -r requirements.txt
+   '''pip install -r requirements.txt
 
 4. **Run the Notebook** 
 Launch Jupyter Notebook:
