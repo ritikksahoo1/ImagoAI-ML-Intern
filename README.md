@@ -66,5 +66,5 @@ Alternatively, open the notebook in a Kaggle Notebook environment if preferred.
   - scikeras
 
 ## Notes
-Hyperparameter tuning with GridSearchCV for deep learning models is computationally intensive. Consider using a reduced grid or RandomizedSearchCV for faster tuning if necessary.
-The repository includes a baseline CNN model. Future improvements could include exploring advanced architectures like attention mechanisms or transformer models.
+  - Hyperparameter tuning with GridSearchCV for deep learning models is computationally intensive. Consider using a reduced grid or RandomizedSearchCV for faster tuning if necessary.
+  - The repository includes a baseline CNN model. Future improvements could include exploring advanced architectures like attention mechanisms or transformer models.
