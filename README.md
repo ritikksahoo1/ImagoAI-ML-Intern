@@ -41,8 +41,10 @@ This repository contains a complete solution for predicting vomitoxin_ppb levels
    ```bash
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
+   
 2. **Create a Virtual Environment** 
-python -m venv venv
+```python
+-m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 3. **Install Dependencies** 
@@ -53,26 +55,16 @@ Launch Jupyter Notebook:
 jupyter notebook ml-intern-imagoai.ipynb
 Alternatively, open the notebook in a Kaggle Notebook environment if preferred.
 
-Dependencies
+## Dependencies
+  - Python 3.8+
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tensorflow
+  - scikeras
 
-Python 3.8+
-
-pandas
-
-numpy
-
-matplotlib
-
-seaborn
-
-scikit-learn
-
-tensorflow
-
-scikeras
-
-Notes
-
+## Notes
 Hyperparameter tuning with GridSearchCV for deep learning models is computationally intensive. Consider using a reduced grid or RandomizedSearchCV for faster tuning if necessary.
-
 The repository includes a baseline CNN model. Future improvements could include exploring advanced architectures like attention mechanisms or transformer models.
